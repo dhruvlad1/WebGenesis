@@ -59,7 +59,6 @@ body{
     color: rgb(121, 171, 171);
     font-size: large;
     margin-top: 10px;
-    padding: 10px;
 }
 .check a{
     text-decoration: none;
@@ -69,11 +68,43 @@ body{
     text-decoration: underline;
     color:rgb(8, 190, 190);
 }
-.pad{
-    padding-right:20px;
-}
+
 .check > span{
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+.SignUp{
+    display: flex;
+    align-items: center;
+    color: rgb(121, 171, 171);
+    font-size: large;
+    margin:auto;
+
+}
+.SignUp > span{
+    position: relative;
+    padding: 10px;
+    padding-top: 5px;
+}
+.SignUp a{
+    text-decoration: none;
+    color: rgb(3, 138, 138);
+}
+.SignUp a:hover{
+    text-decoration: underline;
+    color:rgb(8, 190, 190);
+}
+.Button{
+    display: flex;
+    justify-content: center;
+}
+.Button button{
+    height: 40px;
+    width: 110px;
+    font-size: large;
+    border-radius: 15px;
+    color: rgba(121, 171, 171, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
 }
