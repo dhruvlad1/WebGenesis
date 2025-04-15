@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(19, 34, 174);
+    height: 75px;
+    display: flex;
+}
+.home-button{
+    background-color:rgb(19, 34, 174) ;
+}
+button{
+    background-color: rgb(19, 34, 174);
+    height: 30px;
+    width: 50px;
+}
+body{
+    background-image: url('bg.avif');
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+nav > div{
+    padding: 22px;
+}
